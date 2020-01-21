@@ -2,7 +2,8 @@
 
 Have you ever wondered if there is life outside of our solar system? I’m sure most of us wondered before about our existence and if we are truly alone in space. As a kid, I always was fascinated with space, all the stars, and planets and due to my curiosity in cosmology, I decided to use Machine Learning algorithms to investigate a Nasa dataset. Let me guide you into a deep learning adventure into space.
 
-![exoplanets](https://user-images.githubusercontent.com/24231101/38481586-60ea1a90-3b80-11e8-8c1c-3d60a4309a73.jpg)
+![exoplanets](http://www.astronomy.com/-/media/Images/News%20and%20Observing/News/2018/10/EuropaViewofJupiter.jpg?mw=1000&mh=800)
+
 
 ## Do you know what an Exoplanet is?
 An Exoplanet (Extrasolar planet) is a planet that exists outside our solar system. Many exoplanets have been discovered over 
