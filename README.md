@@ -1,6 +1,6 @@
 # Hunting ExoPlanet (Machine Learning)
 
-Have you ever wondered if there is life outside of our solar system? I’m sure most of us wondered before about our existence and if we are truly alone in space. As a kid, I always was fascinated with space, all the stars, and planets and due to my curiosity in cosmology, I decided to use Machine Learning algorithms to investigate a Nasa dataset. Let me guide you into a deep learning adventure into space.
+Have you ever wondered if there is life outside of our solar system? I’m sure most of us wondered before about our existence and if we are truly alone in space. As a kid, I always was fascinated with space, all the stars, and planets and due to my curiosity in cosmology, I decided to use Machine Learning algorithms to investigate a Kaggle Nasa dataset. Let me guide you into a deep learning adventure into space.
 
 ![exoplanets](http://www.astronomy.com/-/media/Images/News%20and%20Observing/News/2018/10/EuropaViewofJupiter.jpg?mw=1000&mh=800)
 
@@ -23,7 +23,7 @@ The graph in each box shows the measured flux (light intensity) at each time int
 
 
 
-My goal was to create a model that can predict the existence of an Exoplanet, utilizing the flux (light intensity) readings from 3198 different stars over time. For this dataset investigation I used Python along with these libraries: Pandas, Jupyter notebook, SKLearn, Numpy, Scipy, Matplotlib and Seaborn. If you want to check the projects requirements or source code, you can find it here.
+My goal was to create a model that can predict the existence of an Exoplanet, utilizing the flux (light intensity) readings from 3198 different stars over time. For this dataset investigation I used Python along with these libraries: Pandas, Jupyter notebook, SKLearn, Numpy, Scipy, Matplotlib and Seaborn.
 
 The Dataset is composed of a test and a training set, containing two different labels, 2 is an exoplanet star and 1 is a non-exoplanet-star.
 
