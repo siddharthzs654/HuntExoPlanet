@@ -23,32 +23,31 @@ The graph in each box shows the measured flux (light intensity) at each time int
 
 
 
-My goal was to create a model that can predict the existence of an Exoplanet, utilizing the flux (light intensity) readings from 3198 different stars over time. For this dataset investigation I used Python along with these libraries: Pandas, Jupyter notebook, SKLearn, Numpy, Scipy, Matplotlib and Seaborn.
-
+My goal was to create a model that can predict the existence of an Exoplanet, utilizing the flux (light intensity) readings from 3198 different stars over time. For this dataset investigation I used Python along with these libraries: Pandas, Jupyter notebook, SKLearn, Numpy, Scipy, Matplotlib and Seaborn.<br>
+Link to Kaggle Dataset : [https://www.kaggle.com/keplersmachines/kepler-labelled-time-series-data](https://www.kaggle.com/keplersmachines/kepler-labelled-time-series-data)<br><br>
 The Dataset is composed of a test and a training set, containing two different labels, 2 is an exoplanet star and 1 is a non-exoplanet-star.
-
+### Trainset Description:
+ 5086 rows or observations.<br>
+ 3198 columns or flux value.<br>
+ Column 1 is the label vector. Columns 2–3198 are the flux values over time.<br>
+ 37 confirmed exoplanet-stars and 5050 non-exoplanet-stars.<br>
 
 ### Testset:
-570 rows or observations.
-3198 columns or features.
-Column 1 is the label vector. Columns 2–3198 are the flux values over time.
-5 confirmed exoplanet-stars and 565 non-exoplanet-stars.
+570 rows or observations.<br>
+3198 columns or features.<br>
+Column 1 is the label vector. Columns 2–3198 are the flux values over time.<br>
+5 confirmed exoplanet-stars and 565 non-exoplanet-stars.<br>
+
 ![screen shot 2018-04-07 at 7 57 48 pm](https://user-images.githubusercontent.com/24231101/38481614-88e4edcc-3b80-11e8-977f-a33a360f0026.png)
 
 An example of a few the columns and rows.
 Issues to note
 Initially when I first tried tho create a plot I realized, although the dataset was clean, it was not normalized. So due to that I had to create a function that would do that for me.
-![screen shot 2018-04-07 at 8 06 15 pm](https://user-images.githubusercontent.com/24231101/38481613-88c9882a-3b80-11e8-9f1d-9f00af7cc497.png)
-
-![screen shot 2018-04-07 at 8 07 35 pm](https://user-images.githubusercontent.com/24231101/38481612-88b198dc-3b80-11e8-8c85-336eadbd756b.png)
 
 
 
 “We do data normalization when seeking for relations. Some people do this methods, unfortunately, in experimental designs. Normalization in experimental designs are meaningless because we can’t compare the mean of, for instance, a treatment with the mean of another treatment logarithmically normalized. In regression and multivariate analysis which the relationships are of interest, however, we can do the normalization to reach a linear, more robust relationship. Commonly when the relationship between two dataset is non-linear we transform data to reach a linear relationship. Here, normalization doesn’t mean normalizing data, it means normalizing residuals by transforming data. So normalization of data implies to normalize residuals using the methods of transformation.”
 These are examples of the the light intensity:
-![screen shot 2018-04-07 at 8 09 46 pm](https://user-images.githubusercontent.com/24231101/38481611-889a7fbc-3b80-11e8-925c-c4f49c1996bd.png)
-![screen shot 2018-04-07 at 8 10 06 pm](https://user-images.githubusercontent.com/24231101/38481610-8881c4fe-3b80-11e8-8511-7bdf864a3250.png)
-
 
 
 ## Feature Engineering
