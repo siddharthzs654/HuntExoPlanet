@@ -38,7 +38,6 @@ The Dataset is composed of a test and a training set, containing two different l
 Column 1 is the label vector. Columns 2–3198 are the flux values over time.<br>
 5 confirmed exoplanet-stars and 565 non-exoplanet-stars.<br>
 
-![screen shot 2018-04-07 at 7 57 48 pm](https://user-images.githubusercontent.com/24231101/38481614-88e4edcc-3b80-11e8-977f-a33a360f0026.png)
 
 An example of a few the columns and rows.
 Issues to note
