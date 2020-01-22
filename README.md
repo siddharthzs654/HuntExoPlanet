@@ -39,54 +39,34 @@ Column 1 is the label vector. Columns 2–3198 are the flux values over time.<br
 5 confirmed exoplanet-stars and 565 non-exoplanet-stars.<br>
 
 
-An example of a few the columns and rows.
-Issues to note
-Initially when I first tried tho create a plot I realized, although the dataset was clean, it was not normalized. So due to that I had to create a function that would do that for me.
-
-
-
-“We do data normalization when seeking for relations. Some people do this methods, unfortunately, in experimental designs. Normalization in experimental designs are meaningless because we can’t compare the mean of, for instance, a treatment with the mean of another treatment logarithmically normalized. In regression and multivariate analysis which the relationships are of interest, however, we can do the normalization to reach a linear, more robust relationship. Commonly when the relationship between two dataset is non-linear we transform data to reach a linear relationship. Here, normalization doesn’t mean normalizing data, it means normalizing residuals by transforming data. So normalization of data implies to normalize residuals using the methods of transformation.”
-These are examples of the the light intensity:
-
-
-## Feature Engineering
+## what's wrong with the data
+while going through dataset, I see that data is highly skewed or in-balanced. In Trainset 99.29% is negative and only 0.3 percent is positive. And, Balancing it turn out to be a pain in my head!
+You also look at mean,max,min, std_dev and ratio of postivie to negative observation.
+//Images
+//Images
+//Images
+**Preprocessing required**
+ * reducing the number of negative observation and increasing positive observation.
+ * Normalizing the data
+ * reducing dimensions by PCA
+ 
+# Feature Engineering
 
 ### Gaussian distribution
-In theory the normal distribution is a continuous probability distribution.
-
-“The normal distribution is useful because of the central limit theorem. In its most general form, under some conditions (which include finite variance), it states that averages of samples of observations of random variables independently drawn from independent distributions converge in distribution to the normal, that is, become normally distributed when the number of observations is sufficiently large.”
-
-Example of the Gaussian Histogram
-Fourier Transform
-When you are dealing with intensity values over time, think of it as different variance frequencies or signals. The Fourier Transformation allows us to decompose the signals into independent frequencies, sample the signals over a period of time (or space) and divide them into their frequency components.
 
 
 
 ### Linear Regression
-Linear approach is for modeling the relationship between a scalar dependent variable y and one or more explanatory variables denoted X.
 
 
 ### Principal Components Analysis (PCA)
-The procedure to convert a set of observations of possibly correlated variables into a set of values of linearly uncorrelated variables is called principal components. While analyzing the principle components of this dataset, I notice that the first 10 columns was over 70% of my data.
+
 
 
 ### K-Means
-Is a clustering method of vector quantification. K-Means clustering aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean, serving as a prototype of the cluster.
 
-
-And after all, I decided to check the light intensity of the exoplanets and non-exoplanets and compare them to each other.
-
-
-After creating my model and predictions, I was curious to know how long it would take us to eventually get to those exoplanets and compare the speed with the Falcon Heavy. So first I checked the distance between Earth to Mars, but remembered the distance from two planets is constantly changing as they travel around the sun.
-
-“In theory, the closest that Earth and Mars would approach each other would be when Mars is at its closest point to the sun (perihelion) and Earth is at its farthest (aphelion). This would put the planets only 33.9 million miles (54.6 million kilometers) apart. However, this has never happened in recorded history. The closest recorded approach of the two planets occurred in 2003, when they were only 34.8 million miles (56 million km) apart.”
-
-Falcon Heavy is the most powerful operational rocket in the world by a factor of two. With the ability to lift into orbit nearly 64 metric tons (141,000 lb) — -a mass greater than a 737 jetliner loaded with passengers, crew, luggage and fuel — Falcon Heavy can lift more than twice the payload of the next closest operational vehicle, the Delta IV Heavy, at one-third the cost.
-
-
-If my predictions are correct, it would take us approximately 345 light years to get to these exoplanets.
 
 ## Conclusion
-I was very surprised with the results of this data exploration; cosmology is one of many passions, and being able to create these predictions was very satisfying. Although this was my final project for my Machine Learning class, I intend to continue exploring beyond my current achievements. Also, Nasa and SpaceX offer many datasets that are fun to explore and I’m excited to see what I will be able to achieve.
+
 
 
