@@ -42,7 +42,7 @@ Column 1 is the label vector. Columns 2–3198 are the flux values over time.<br
 ## what's wrong with the data
 while going through dataset, I see that data is highly skewed or in-balanced. In Trainset 99.29% is negative and only 0.3 percent is positive. And, Balancing it turn out to be a pain in my head!
 You also look at mean,max,min, std_dev and ratio of postivie to negative observation.<br>
-//Images
+![exoplanet_data](https://raw.githubusercontent.com/siddharthzs654/HuntExoPlanet/master/exo_mean.png)
 //Images
 //Images<br>
 **Preprocessing required**
